@@ -4,7 +4,7 @@ beam-search is an ES2015 implementation of a 'width increasing' beam search usin
 
 ## Installation
 ```bash
-$ npm install git+https://github.com/ztrange/beam-search.git
+$ npm install beam-search
 ```
 
 ## API Reference
