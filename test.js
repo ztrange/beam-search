@@ -92,9 +92,11 @@ const beam = new BeamSearch({
     return b.step.days.length - a.step.days.length
   },
 
-  maxWidth: 500,
-  startingWidth: 12,
-  widthStep: (w) => (w * 2),
+  width: {
+    initial: 12,
+    maxWidth: 500,
+    next: w => w * 2,
+  },
 })
 
 const solutions = beam.strartFrom({

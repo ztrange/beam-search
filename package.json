@@ -1,14 +1,15 @@
 {
   "name": "beam-search",
   "version": "1.0.0",
-  "description": "ES6 'width increasing' beam search using a tree",
+  "description": "ES2015 'width increasing' beam search using a tree",
   "main": "index.js",
   "scripts": {
-    "test": "time node test.js"
+    "test": "DEBUG=beam-search time node test.js"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "debug": "^2.3.3",
     "tree-model": "^1.0.6"
   }
 }
