@@ -200,5 +200,5 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Changelog
 
-**1.0.0**
+**1.0.0-1.0.2**
  * Initial commit

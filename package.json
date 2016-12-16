@@ -1,7 +1,14 @@
 {
   "name": "beam-search",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ES2015 'width increasing' beam search using a tree",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ztrange/beam-search"
+  },
+  "bugs": {
+    "url": "https://github.com/ztrange/beam-search/issues"
+  },
   "main": "index.js",
   "scripts": {
     "test": "DEBUG=beam-search time node test.js"
